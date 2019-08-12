@@ -1,0 +1,36 @@
+[{
+	"slug":"klasse-bonzi",
+	"nombre":"Klasse - ALDO BONZI",
+	"imagen": "/static/dummy/img/dealers/Sucursal_4.jpg",	
+	"email": "mercedesbenz@atencionweb.com",
+	"direccion": "Camino de Cintura y 1770, AU Tte. Gral. Pablo Riccheri, Aldo Bonzi, Buenos Aires",
+	"localidad": "Aldo Bonzi",
+	"lat": "-34.7220078",
+	"lng": "-58.512207",
+	"telefono": "011 4442-6004",
+	"whatsapp": "+54 9 11 5718-2736",
+	"horarios":
+	[
+		"9:00",
+		"10:00",
+		"11:00",
+		"12:00",
+		"14:00",
+		"15:00",
+		"16:00",
+		"17:00"
+	],	
+	"servicios":
+	{
+		"sprinter": [
+			"reparacion",
+			"reposiciones-seguros",
+			"repuestos"
+		],
+		"truck": [
+			"reparacion",
+			"reposiciones-seguros",
+			"repuestos"
+		]
+	}
+}]

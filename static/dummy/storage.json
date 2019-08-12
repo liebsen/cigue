@@ -1,0 +1,68 @@
+{
+    "version": "1.0.0",
+    "endpoint":"https://api.automovilshop.com/",
+    "title": "Turnos Cigue",
+    "description": "La plataforma web de turnos online de Cigue Concesionario Oficial Mercedes-Benz",
+    "author": "Overlemon <overlemonsoft@gmail.com>",
+    "lifespan" : "30 seconds",
+    "header" : {
+    	"logo" : "/static/img/logo.jpeg",
+		"text" : "Cigue",
+		"subtext" : "Cigliutti Guerini",
+		"options" : [{
+			"link":"/turno",
+			"text":"Solicitar Turno"
+		},{
+			"link":"/dealers",
+			"title":"Conozca nuestros concesionarios",
+			"text":"Sucursales"
+		}]
+	},
+    "footer": {
+    	"text" : "2018 Cigue · Cigliutti Guerini",
+    	"subtext" : "Todos los derechos reservados",
+    	"options": [{
+    		"text" : "Herramientas",
+    		"options" : [{
+    			"link":"/turno",
+    			"text":"Solicitar Turno"
+    		},{
+    			"link":"/dealers",
+    			"title":"Conozca nuestros concesionarios",
+    			"text":"Sucursales"
+    		}]
+    	},{
+    		"text" : "Empresa",
+    		"options" : [{
+    			"link":"#",
+    			"target":"modal-terminos",
+    			"text":"Términos y condiciones"
+    		}]
+    	},{
+    		"text" : "Redes",
+    		"options" : [{
+    			"link":"https://facebook.com/CigueMercedesBenz",
+    			"faicon":"facebook",
+    			"is_blank": true,
+    			"title":"Seguinos en Facebook!",
+    			"text":"/CigueMercedesBenz"
+    		},{
+    			"link":"https://instagram.com/klassemb",
+    			"faicon":"instagram",
+    			"is_blank": true,
+    			"title":"Seguinos en Instagram!",
+    			"text":"@klassemb"
+    		}]
+    	}
+    ]},
+    "announcement": {
+        "title": "Bienvenido a TurnosCigue",
+    	"message": "Deseas solicitar un turno ahora?",
+    	"type": "is-success"
+    },
+    "turnosklasse": {
+    	"procesando":"Estamos procesando su solicitud",
+    	"exito":"Gracias por elegirnos. Tu solicitud fue procesada con éxito, en breve estaremos confirmando la misma.",
+    	"error":"Hubo un error. El servidor no respondió como se esperaba. Vuelva a intentarlo en unos minutos."
+    }
+}
